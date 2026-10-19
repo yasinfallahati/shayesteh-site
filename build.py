@@ -13,7 +13,7 @@ def page(title,desc,body,extra=''):
 def mem(u,n,r):return f'<div class="card mem rv"><img src="/img/team/{u}.png" alt="{n}"><h3>{n}</h3><div class="role">{r}</div><a class="gh" href="https://github.com/{u}" target="_blank" rel="noopener">{s("gh")}github.com/{u}</a></div>'
 home=f'''<div class="hero"><div class="orb"></div><div class="w rv"><span class="eyebrow">شرکت برنامه‌نویسی</span><h1>نرم‌افزارِ هوشمند<br><b>برای کسب‌وکارهای ایرانی</b></h1>
 <p class="lead">تجارت الکترونیک شایسته ایرانیان یک تیم برنامه‌نویسی است که با هوش مصنوعی، اتوماسیون و توسعه‌ی وب، کارهای تکراری کسب‌وکارها را خودکار می‌کند و محصول دیجیتال می‌سازد.</p>
-<div class="cta"><a class="btn" href="/postino/">آشنایی با پستینو {s("arr")}</a><a class="btn o" href="https://www.nibero.ir" target="_blank" rel="noopener">آشنایی با نیبرو {s("arr")}</a></div></div></div>
+<div class="cta"><a class="btn" href="/postino/">آشنایی با پستینو {s("arr")}</a><a class="btn" href="https://www.nibero.ir" target="_blank" rel="noopener">آشنایی با نیبرو {s("arr")}</a></div></div></div>
 <section id="about"><div class="w"><div class="head rv"><span class="eyebrow">تخصص‌ها</span><h2>چه <b>کاری</b> می‌کنیم؟</h2><p class="sub">چهار تخصص در یک تیم.</p></div><div class="g">
 <div class="card rv"><div class="ic">{s("ai")}</div><h3>هوش مصنوعی</h3><p>چت‌بات، دستیار هوشمند و مدل‌های زبانی، هم ابری و هم روی سیستم خود شما.</p></div>
 <div class="card rv"><div class="ic">{s("bolt")}</div><h3>اتوماسیون</h3><p>ربات تلگرام، تولید خودکار محتوا و خودکارسازی کارهای تکراری.</p></div>
