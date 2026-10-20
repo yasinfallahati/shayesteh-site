@@ -80,3 +80,4 @@ body{background-color:#0B0D10}.card{background:linear-gradient(180deg,rgba(245,2
 .feat .pr strong{direction:ltr;display:inline-block}.feat .btn{align-self:flex-start}
 @media(min-width:900px){.prods{grid-template-columns:1fr 1fr}}
 select option{color:#111}
+html,body{overflow-x:clip}
